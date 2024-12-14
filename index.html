@@ -1,152 +1,167 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="design-a-portfolio">
-      <div class="personal-or-agency">
-        <div class="logo-apptype"><div class="text-wrapper">Portfolio</div></div>
-        <div class="div">
-          <div class="text-wrapper-2">Home</div>
-          <div class="text-wrapper-2">Projects</div>
-          <div class="text-wrapper-2">About</div>
-          <div class="text-wrapper-2">Contact</div>
-        </div>
-        <img class="divider" src="img/divider.svg" />
-      </div>
-      <div class="container">
-        <div class="main-content">
-          <div class="landing-page-hero">
-            <p class="p">Welcome to My Industrial Portfolio</p>
-            <div class="an-expansive-view-of"></div>
-          </div>
-          <div class="landing-page-single">
-            <div class="a-rusted-steel-panel-wrapper">
-              <div class="a-rusted-steel-panel">
-                <div class="div-2">
-                  <div class="text-content">
-                    <div class="text-wrapper-3">Industrial Design</div>
-                    <p class="text-wrapper-4">
-                      Explore my work in an industrial style, inspired by raw materials and urban textures.
-                    </p>
-                  </div>
-                  <div class="button-large"><div class="text-wrapper-5">Explore My Work</div></div>
-                </div>
-              </div>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Industrial Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Archivo:wght@400;500&family=Archivo+Narrow:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="portfolio-wrapper">
+        <header class="header">
+            <div class="logo">Portfolio</div>
+            <nav class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#projects">Projects</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <div class="header-divider" aria-hidden="true"></div>
+        </header>
+
+        <main class="main-content">
+            <div class="content-wrapper">
+                <section class="hero-section" id="home">
+                    <h1 class="hero-title">Welcome to My Industrial Portfolio</h1>
+                    <img src="https://s3-alpha-sig.figma.com/img/2198/1d05/b132d9a92d9c0141fbd1ee047a3022fd?Expires=1734912000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Mv7~Ruql5qigygBus6SC9j7bcVpzxiV0n1l9l6vBfkodUA2pbvR1K6JM67BIw79vORAHRxPOdIY~pQvZPFuqqOyQOQqEfRXz71zXlgPIyzgsfnUZ1GdymKAi11FiXpnheuJnYucVAjlTqU7v2ufjrsuQHKtJUCgPkDJGBUNEWpBDWiZ3d6uVR6uNZprJmAxu4FbZvZw3e9MgrVVO5FTngXjWcSz8pyz4b-yaH~64NuY9yPy2plqNHUBgRqbgFCs6QOsXDGfz5RQnIa1kI9fcYnlYFB~hyPMPm42tf3ZzEbDlz2UBBQnukBT9ssmiLFNkH8ADajrhpbf4BBAveUmIfg__" alt="Industrial portfolio hero image showcasing design work" class="hero-image">
+                </section>
+
+                <section class="feature-section">
+                    <div class="feature-content">
+                        <img src="https://s3-alpha-sig.figma.com/img/6b79/dcb1/69616fe68010bbb43a29a4ff03cef6cd?Expires=1734912000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=I0L3-nyuH2dWq-pP2RgOqmkQxEA-3vIYC27ludvrWd3sQ2JGh4EzRSHcYUDnxhouB5Rjm8DTJGKqhRIIRQOx03A-O27rUZ8ohb1x~ypAknCJSFor1ECm2~Std9uPVxbKneQB2HbyruBNdWa~FHRiYt11XOAqvXKMrHRQc1llzsIzrbm7LKLYxOOo9u9nL6Bsomu864hbHSlryUM21B4gWi7ipbsbpQ58ub6yDlFwnbTxH8hvUBwfEgL-TvrapF7JbfsxbCJNp3KnmR2w7GjIs-y~FgkkxhjO4RipJ9BeR-ZruWCaOxDjS77XFIzZvlwPOvZtMSlQY14yvTL2egaMmg__" alt="Featured industrial design project" class="feature-bg">
+                        <div class="feature-text-wrapper">
+                            <div class="feature-text">
+                                <h2 class="feature-title">Industrial Design</h2>
+                                <p class="feature-description">Explore my work in an industrial style, inspired by raw materials and urban textures.</p>
+                            </div>
+                            <button class="cta-button">Explore My Work</button>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="projects-grid" id="projects">
+                    <div class="projects-row">
+                        <article class="project-card">
+                            <img src="https://s3-alpha-sig.figma.com/img/22d7/8edf/d39926da54274ffaa3d9ec6e36ec3c5a?Expires=1734912000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=EJyAm4X4~cX240MDECgdq0xzqKuuG9MCyhppaLjTAfnwHXPf3POSwAthu8M8EkoDMHs6evfRjEbVneM3HydhVDpNsN6o6fIHVraoPHpl477Ltpd~91NMBO7UIbh6DAMY2QP0bCuRi3pswLjdEdFWxnXzBoRgw4H4WyBQAS68VwNgwuyeiYdFszYd6jbcd6u5SxXIsMu-EFZz0sWW1xoyVnsrbbgH7Q7Ni3W-j9zHnPnIuTTUetmInQVM9I7oyzdfdZ3~LmthqR0cm-g6VrPUmCuWjkqtFgQFPKy1dZJPwP9mW3NOuVffJBydBLIUkaekoSdQYFHFiWsOmSQQk-GNEA__" alt="Design project showcase" class="project-image">
+                            <div class="project-info">
+                                <h3 class="project-title">Project 1</h3>
+                                <p class="project-category">Design</p>
+                            </div>
+                        </article>
+                        
+                        <article class="project-card">
+                            <img src="https://s3-alpha-sig.figma.com/img/8ea4/ea8b/1440bd295865e5b2685cb46add97d0fd?Expires=1734912000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=lwTOhQtt5tpa6DvUsj7Upve2KMuq7P4SMMIalFPMRZFRyEA-zejge2RMODTVLft~xc2s04ln~AnfljDuXovqeOA0HaHs1kz6WW5VGrFGj9YZcjE8rXtbfFhIy7We9UVZWmUfHZ9f6usXkjFUNJjLEl7VUw~fvneoN0ncIGInQqaRCWQDemVstsCpnYzN-0UbF5RJHdzysju0PrFnhtm~AyUzz3e-6AootOzrhDjkSsaV8TxXZD1KGjCT0WbOUwNwUn6JgPpeMN2droQUd-7n~ptfL5o9b3bndleZThzRIS1dLVDB9880RgIj5KW9rtq9u-IX9y3ccDf80uTdbT~ozQ__" alt="Photography project showcase" class="project-image">
+                            <div class="project-info">
+                                <h3 class="project-title">Project 2</h3>
+                                <p class="project-category">Photography</p>
+                            </div>
+                        </article>
+                        
+                        <article class="project-card">
+                            <img src="https://s3-alpha-sig.figma.com/img/8abd/b4b4/9774ffca2d35b2d99f5fe5c5c30e3911?Expires=1734912000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=mp6c555P99kXJZXbX1rBdb~L1i8ArS0gVvvX3D61jP4iFzwHCSfTseQkUHu4lZNLNlj63VFgsZp~bFyQq19guVE5oRcAioPuCfjJH~KR2cwGrdlRIoxCMoQ0OVRuEUHAZa6ie6l-AjiFjdB4mzOWD7EtdgY~q199YsbOGGDb5xpJ~XfEWk2Nrd8pNUlajrwSVav6A3wmBnmMWPq5m~oP8oTbcYDoZAjQWRLBzJGjT26Zkcjv4rQyYCGGT-5Ba3bDUopBR9Hh828kBKFMUx5pYE2LURXh~9kKsc2fflhMl3SNw3Z3sDuispgdjG9j~VXMbRbBYbXaXgJGxp83FEJung__" alt="Branding project showcase" class="project-image">
+                            <div class="project-info">
+                                <h3 class="project-title">Project 3</h3>
+                                <p class="project-category">Branding</p>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="projects-row">
+                        <article class="project-card">
+                            <img src="https://s3-alpha-sig.figma.com/img/3c5f/85a2/910b7f44f31fdafa6f4344232d5504fb?Expires=1734912000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=AXH4uYA5-co-bnSeKnw3WdUV2yFqvkVks205fU-UeSNazj~cGvWjnYZsd9CA0kLriFaL3nY7H8~R4MvrZhWgbSSn8ZzWKZgZtJiFbONgj2as356JPNZ-iPFGB-bIFFp4yEHPHShjbdsqGvWoaTj4bhBsmyGi4fhfUp6QsL2VxvIZush3ACQzu6aF3gbEs0mBV1Mztjqgv0utTq4IOnDb~x2~JOrbPzP~GEOBCPNGWJkuKe5Xd2KIs5ikLsD2~dzi50imGWPojmVx8t0Ce5yZmv64qxhRnWEdvjwOspcABXnT94Qn2lRkE0Q6CbIOCl087asjIFkoLVXW9rnkLIEySQ__" alt="Art project showcase" class="project-image">
+                            <div class="project-info">
+                                <h3 class="project-title">Project 4</h3>
+                                <p class="project-category">Art</p>
+                            </div>
+                        </article>
+                        
+                        <article class="project-card">
+                            <img src="https://s3-alpha-sig.figma.com/img/10cd/5c00/5d4389a278a6a91f7a8f232217788252?Expires=1734912000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=mvfi-f1w1CsKQml5xRI19BrPw-d1hiLV38G~zwEDBe7z1bq8g8y7MHbLLIF5wojPv1M9x729X85EFoo8lGG4d~9SKhsMbo7ocfPgw~xJwiDyJA~WTNG7tfLojzLzYQMYm~Sybzk~JEIBfh2R7AbHwyNhxUXf-o0s0tWqWhZsnOcAUTa3HSfmnesWOtJGHHBZlog44VJj3XpRlfae5K0XMVV2~mAfeA4bncdApaAZyUJwXQ73TWBG2WVq5R0O9ijfEG5b6jKWyl-mBskdRiRznXG~S60QxxPIboKdtMsHcGbTAcKRj7B29ktV7piiOzr~vPFTbqGTqeF-rqJgXT7X-w__" alt="Web design project showcase" class="project-image">
+                            <div class="project-info">
+                                <h3 class="project-title">Project 5</h3>
+                                <p class="project-category">Web Design</p>
+                            </div>
+                        </article>
+                        
+                        <article class="project-card">
+                            <img src="https://s3-alpha-sig.figma.com/img/0956/f780/c57d0d0128ab27dee96cf7a18cf031ca?Expires=1734912000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=LhVkd0f52cOOAOvDWFUBLDRd4thZGmg2thdCbk4zxyNK2dJfO7wmnEsGoMe2ZdAN9j-CL~8z55HodhkHmhXzgMEdBnj18EGZfceN621zNfKVYpzMcNtqstlYrAH5nVC1w1XlLZcRqvhVSMAKSvw5Vy9unY2AVx79Gz7mwxRNKOOew4VXFAmgg~6p3VUoBjZZhiFNX3sGaoQUsdSayXNeNMk0uMtzT5ATh9rODnIl1GNz~MdnJkeUBwu-yZoUmGRd8ZnZnf40nlT1p-cT79YlTxpDcZPeFQH0r-jUqMuDtgwxHVnZY-1XQi-PQHDGSkyla5TgLSB5yk0fmMrnaPWRDQ__" alt="Illustration project showcase" class="project-image">
+                            <div class="project-info">
+                                <h3 class="project-title">Project 6</h3>
+                                <p class="project-category">Illustration</p>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="projects-row">
+                        <article class="project-card">
+                            <img src="https://s3-alpha-sig.figma.com/img/c45d/95a7/be5a4374bc5d0e061c89675b13c97846?Expires=1734912000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VH6Ja4sn0Td8EJpUw-2IJlv01WckcjDZeZoGF1qtjGwHvDdlLwMCcUiTOzVWZyrjbpkp9sV0dsX~C0oixm~KPuzJHUpatEu8it50CKWnXxKAk3jQz5QSZQgU8D9kuKhBlANO8ckJOZfNa7XxcL-2LlP1Lcl79a8KltuhyhXv1TqVdc0T8F3vCHIMqhwrmXaq1n6J4X3gYjxJafg~uM4RknjOHADIlm18lSjGTqKpxZBiL8qHlUhwTUEcgza~egMvTxmpQ5pv1n5ZVXI0VBAPmU513luF5DMJ-~jX3NkATYLEWc2-X0W9XibHMbAmegbkAMqROHwFOn6JwyPcgLNmqg__" alt="Graphics project showcase" class="project-image">
+                            <div class="project-info">
+                                <h3 class="project-title">Project 7</h3>
+                                <p class="project-category">Graphics</p>
+                            </div>
+                        </article>
+                        
+                        <article class="project-card">
+                            <img src="https://s3-alpha-sig.figma.com/img/0c5d/1ade/d4fa1c296044793cedfc73f74a7bd0d7?Expires=1734912000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=p5H4NugsKL3pyr2KgGuRjM48US~Js~2Mcz6qHQxRy4tjDxSwrucOkb5x5kiIEVQfgJbLGexYLh8fpSgyNKIM~0y8IQ3NrTMXzZo4zt5M8sxqB3oOcohGiqFxKAbcHzYTnVsyKfUn6Zmt9cj6RJFRs2wv6Clm~I9owVulOI4Lkelz99CXMsvNbroj5xBWFInR9hdCqa~TVccHKxPuowhmjFhB8MhWeKET5SflfauH9CWiiHjUkuVWd0ckg1r~UqLOPD~SmYPykQGniP-SXReqayFSMMEYQtl72zc04MPk9e1Q1K8KlSRKxK4ZyKzl3SDREWYINQknihx4FhPDpF6gSg__" alt="UI/UX project showcase" class="project-image">
+                            <div class="project-info">
+                                <h3 class="project-title">Project 8</h3>
+                                <p class="project-category">UI/UX</p>
+                            </div>
+                        </article>
+                        
+                        <article class="project-card">
+                            <img src="https://s3-alpha-sig.figma.com/img/bed0/66f3/df244e85746588619bd74c7a7a77d816?Expires=1734912000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=NVpp4e98-iPAsQo4XnL0vz~f54vC1U3~fAaiLmyvlbaiAZCiTFLklVJan4i3mOH5lcb9mPm-NnsFQg6SJcPmRJnf7JilF9yqeYF9OgCAyx7CQkSyG79G9yxC6yMFnV9AuA2JPBIvCLqPPprhp3rgf4Z-txFTsvqS63sSXFZJAmq7Ug9PZd4SHKhh~ZC0IaaPDK5BfAq0TrR0iHoP9WmL1uozx6IJP8-VlR2c7IlevAaOhh8tpENMS~pjbRvi13l4bw9kT0wq~DHYiCKEdO4pOmvoWWJCvaWe8XlCkFrB7izRR1FYRKzWduBJKhLMUuGdkQVU~VOLFjZ85na8D19B2Q__" alt="Animation project showcase" class="project-image">
+                            <div class="project-info">
+                                <h3 class="project-title">Project 9</h3>
+                                <p class="project-category">Animation</p>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+
+                <section class="about-section" id="about">
+                    <p class="about-text">I am an industrial designer with a passion for raw materials and urban aesthetics. My work reflects a gritty, utilitarian style.</p>
+                    <div class="about-spacer" aria-hidden="true"></div>
+                </section>
+
+                <section class="contact-section" id="contact">
+                    <h2 class="contact-title">Contact Me</h2>
+                    <p class="contact-description">Reach out to discuss potential projects or collaborations. I am always excited to work on new and challenging designs.</p>
+                </section>
+
+                <section class="contact-form">
+                    <form class="form-container">
+                        <h2 class="form-title">Contact Form</h2>
+                        <div class="input-group">
+                            <label for="input1" class="visually-hidden">Contact form input 1</label>
+                            <input type="text" id="input1" class="form-input" aria-label="Contact form input 1">
+                            
+                            <label for="input2" class="visually-hidden">Contact form input 2</label>
+                            <input type="text" id="input2" class="form-input" aria-label="Contact form input 2">
+                            
+                            <label for="input3" class="visually-hidden">Contact form input 3</label>
+                            <input type="text" id="input3" class="form-input" aria-label="Contact form input 3">
+                            
+                            <label for="input4" class="visually-hidden">Contact form input 4</label>
+                            <input type="text" id="input4" class="form-input" aria-label="Contact form input 4">
+                            
+                            <label for="input5" class="visually-hidden">Contact form input 5</label>
+                            <input type="text" id="input5" class="form-input" aria-label="Contact form input 5">
+                        </div>
+                        <button type="submit" class="submit-button">Submit</button>
+                        <button type="button" class="skip-link">Skip</button>
+                    </form>
+                </section>
             </div>
-          </div>
-          <div class="personal-or-agency-2">
-            <div class="row">
-              <div class="project">
-                <div class="a-design-project"></div>
-                <div class="text-content-2">
-                  <div class="text-wrapper-6">Project 1</div>
-                  <div class="text-wrapper-7">Design</div>
-                </div>
-              </div>
-              <div class="project">
-                <div class="a-dynamic-photograph"></div>
-                <div class="text-content-2">
-                    <img src="hall copy.png" >
-                  
-                  <div class="text-wrapper-6">Project 2</div>
-                  <div class="text-wrapper-7">Photography</div>
-                </div>
-              </div>
-              <div class="project">
-                <div class="a-textured-branding"></div>
-                <div class="text-content-2">
-                  <div class="text-wrapper-6">Project 3</div>
-                  <div class="text-wrapper-7">Branding</div>
-                </div>
-              </div>
+        </main>
+
+        <footer class="footer">
+            <div class="footer-content">
+                <p class="footer-text">2023 Portfolio</p>
+                <button class="footer-button">Follow Me</button>
             </div>
-            <div class="row-2">
-              <div class="project">
-                <div class="an-artistic"></div>
-                <div class="text-content-2">
-                  <div class="text-wrapper-6">Project 4</div>
-                  <div class="text-wrapper-7">Art</div>
-                </div>
-              </div>
-              <div class="project">
-                <div class="a-computer-monitor"></div>
-                <div class="text-content-2">
-                  <div class="text-wrapper-6">Project 5</div>
-                  <div class="text-wrapper-7">Web Design</div>
-                </div>
-              </div>
-              <div class="project">
-                <div class="an-illustration-of-a"></div>
-                <div class="text-content-2">
-                  <div class="text-wrapper-6">Project 6</div>
-                  <div class="text-wrapper-7">Illustration</div>
-                </div>
-              </div>
-            </div>
-            <div class="row-2">
-              <div class="project">
-                <div class="a-graphic-design"></div>
-                <div class="text-content-2">
-                  <div class="text-wrapper-6">Project 7</div>
-                  <div class="text-wrapper-7">Graphics</div>
-                </div>
-              </div>
-              <div class="project">
-                <div class="a-user-interface"></div>
-                <div class="text-content-2">
-                  <div class="text-wrapper-6">Project 8</div>
-                  <div class="text-wrapper-7">UI/UX</div>
-                </div>
-              </div>
-              <div class="project">
-                <div class="a-captivating"></div>
-                <div class="text-content-2">
-                  <div class="text-wrapper-6">Project 9</div>
-                  <div class="text-wrapper-7">Animation</div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="portfolio-about">
-            <p class="text-wrapper-8">
-              I am an industrial designer with a passion for raw materials and urban aesthetics. My work reflects a
-              gritty, utilitarian style.
-            </p>
-            <div class="spacer"></div>
-          </div>
-          <div class="personal-or-agency-3">
-            <div class="div-wrapper"><div class="text-wrapper-9">Contact Me</div></div>
-            <p class="text-wrapper-10">
-              Reach out to discuss potential projects or collaborations. I am always excited to work on new and
-              challenging designs.
-            </p>
-          </div>
-          <div class="onboarding-step">
-            <div class="main-container">
-              <div class="instruction"><div class="text-wrapper-11">Contact Form</div></div>
-              <div class="input-container">
-                <div class="input"><div class="text-wrapper-12">0</div></div>
-                <div class="input"><div class="text-wrapper-12">0</div></div>
-                <div class="input"><div class="text-wrapper-12">0</div></div>
-                <div class="input"><div class="text-wrapper-12">0</div></div>
-                <div class="input"><div class="text-wrapper-12">0</div></div>
-              </div>
-              <button class="button-filled"><div class="text-wrapper-13">Submit</div></button>
-              <div class="text-wrapper-14">Skip</div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="personal-website">
-        <div class="container-2">
-          <div class="div"><div class="text-wrapper-2">2023 Portfolio</div></div>
-          <div class="button-large-2"><div class="text-wrapper-5">Follow Me</div></div>
-        </div>
-      </div>
+        </footer>
     </div>
-  </body>
+</body>
 </html>
