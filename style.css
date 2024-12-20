@@ -17,8 +17,8 @@
   }
   
   .logo {
-    font: 400 42px/1 DotGothic16, sans-serif;
-    letter-spacing: -1.68px;
+    font: 400 42px/1 DotGothic16, sans-serif;a
+    letter-spacing:-1.68px;
     min-height: 48px;
     margin: auto 0;
   }
@@ -31,6 +31,7 @@
     font: 400 28px/1 DotGothic16, sans-serif;
     letter-spacing: -0.28px;
     margin: auto 0;
+    
   }
   
   .header-divider {
@@ -68,9 +69,17 @@
   .hero-title {
     font: 400 120px/120px DotGothic16, sans-serif;
     letter-spacing: -2.4px;
-    color: #000;
+    color: #000; 
   }
   
+  #first{
+    margin-bottom:0;
+
+  }
+  #second{
+    margin-top:0;
+
+  }
   .hero-image {
     width: 100%;
     border-radius: 56px;
@@ -103,12 +112,14 @@
   }
   
   .feature-text-wrapper {
-    position: relative;
+    margin-top: 400px;
+    position: absolute;
     display: flex;
     width: 100%;
     padding-bottom: 48px;
     flex-direction: column;
-    align-items: flex-start;
+    align-items:flex-start;
+    
   }
   
   .feature-text {
@@ -131,16 +142,25 @@
   }
   
   .cta-button {
+    Width:Hug (176px);
+    Height:Hug (48px)
+
     align-self: stretch;
     border-radius: 8px;
     background: #fff;
-    margin-top: 48px;
+    
     padding: 12px 24px;
     font: 500 20px/1.2 Archivo Narrow, sans-serif;
     color: #000;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    
+   
+
+    
   }
+
+
   
   .cta-button:hover {
     background: #f0f0f0;
@@ -287,10 +307,12 @@
     border-radius: 8px;
     background: #fff;
     min-height: 64px;
-    width: 56px;
+    width: 35px;
     padding: 20px 16px;
     border: 1px solid #000;
     font: 400 20px/1.2 Archivo, sans-serif;
+    text-align: center;
+    
   }
   
   .form-input:focus {
@@ -430,4 +452,8 @@
     .footer-button {
       padding: 0 20px;
     }
+    .feature-bg{
+      margin-top: 40px;
+    }
+    
   }
